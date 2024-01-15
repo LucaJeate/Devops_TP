@@ -3,7 +3,7 @@ name: Tag DockerHub Generation
 on:
     push:
         tags:
-            - Clockwork
+            - '*'
 
 jobs:
   build:
